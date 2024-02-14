@@ -21,7 +21,7 @@
     >
       <!-- Home Screen -->
       <section
-        class="home text-white min-h-screen flex justify-center items-center hidden"
+        class="home text-white min-h-screen flex justify-center items-center"
       >
         <div class="flex flex-col items-center gap-14">
           <h1 class="text-9xl font-anton">Alpha Clash Pro</h1>
@@ -30,7 +30,7 @@
         </div>
       </section>
       <!-- PlayGround Start -->
-      <section class="play-ground">
+      <section class="play-ground hidden">
         <div class="flex flex-col items-center gap-20 pt-20">
           <!-- Screen! -->
           <div
@@ -97,7 +97,22 @@
           </div>
         </div>
       </section>
-      <section class="score"></section>
+      <!-- PlayGround End  -->
+      <!-- Final Score Start -->
+      <section
+        class="score flex justify-center items-center min-h-screen hidden"
+      >
+        <div
+          class="text-white text-center space-y-6 bg-[#FFFFFF33] px-12 py-11 rounded-xl"
+        >
+          <h1 class="text-8xl">
+            <span class="font-extrabold">Score:</span>
+            <span>14</span>
+          </h1>
+          <button class="btn bg-white text-black px-9">Play Again</button>
+          <p>Practice will make you Pro</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
